@@ -13,7 +13,7 @@ yarn-error.log*
 
 # Firebase credentials (NUNCA subir estos archivos)
 src/firebase/*.json
-*.json
+
 
 # Build outputs
 dist/
