@@ -9,7 +9,7 @@ const app = express();
     
 app.use(express.json());
 
-app.use('/register', async (req, res:Response) => {
+app.post('/register', async (req, res:Response) => {
     
     if(!req.body){
         return res.status(400).json({
