@@ -82,7 +82,7 @@ export async function listQRCodes(folder: string = 'qr-codes'): Promise<string[]
       prefix: folder + '/'
     });
     
-    return files.map(file => file.name);
+    return files.map((file : unknown) => (file as {name: string}).name);
   } catch (error) {
     console.error('Error listando QR codes:', error);
     throw error;
