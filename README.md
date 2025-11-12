@@ -56,3 +56,4 @@ npm run dev
 ## 📝 Ejemplo de Payload
 
 El endpoint `/register` recibe y muestra en consola cualquier payload que envíe HubSpot.
+# hubspot-checkin-be
