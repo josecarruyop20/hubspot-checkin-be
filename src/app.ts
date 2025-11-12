@@ -2,7 +2,6 @@ import express, { Response } from 'express';
 import { errorHandler } from './middlewares/errorHandler';
 import { v4 as uuidv4 } from 'uuid';
 import * as QRCode from 'qrcode';
-import { hubspotClient } from './hubspot';
 import { getAllDocuments, getDocumentById, addDocument, updateDocument, deleteDocument } from './firebase/firestore';
 import { uploadQRCode } from './firebase/storage';
 const app = express();
