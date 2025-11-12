@@ -14,7 +14,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
     "@hubspot/api-client": "^13.4.0",
     "@types/qrcode": "^1.5.6",
